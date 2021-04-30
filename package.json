@@ -1,0 +1,29 @@
+{
+  "name": "envbot",
+  "version": "0.1.0",
+  "description": "A bot to sync .env files between your node project and Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddhorstman/envbot.git"
+  },
+  "author": "David Horstman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddhorstman/envbot/issues"
+  },
+  "homepage": "https://github.com/ddhorstman/envbot#readme",
+  "dependencies": {
+    "@slack/web-api": "^6.1.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
